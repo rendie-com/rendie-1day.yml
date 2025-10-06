@@ -42,7 +42,7 @@ import path from 'path';
     //////////////////////////////////////
     localStorage.setItem("refresh_token", oo.refresh_token);
     localStorage.setItem("access_token", oo.access_token);
-    localStorage.setItem("username", "4hour");
+    localStorage.setItem("username", "1day");
     ///////////////////////////////////////////////////////////////////////
     localStorage.setItem("menuList", '{"top1":1,"top2":{"18":{"name":"任务","id":"18","isbool":true,"url":"http://localhost:3000/view/Default/admin/html/iframe.html?template=Shopee/任务/index.js&jsFile=js02&return=%2Fview%2FDefault%2Fadmin%2Fhtml%2Fiframe.html%3Ftemplate%3DShopee%2F%25E4%25BB%25BB%25E5%258A%25A1%2Findex.js%26jsFile%3Djs04"}}}');
   }, {
