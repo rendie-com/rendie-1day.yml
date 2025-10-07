@@ -54,19 +54,12 @@ jobs:
           NODE_SHOPEE_ACCESS_TOKEN: ${{ secrets.NODE_SHOPEE_ACCESS_TOKEN }}  
           NODE_SHOPEE_REFRESH_TOKEN: ${{ secrets.NODE_SHOPEE_REFRESH_TOKEN }}
           
-      - name: 部署[sqlite3/shopee/采集箱/]目录
+      - name: 部署[sqlite3/shopee/商品/]目录
         uses: JamesIves/github-pages-deploy-action@v4
         with: 
             branch: main
-            folder: sqlite3/shopee/采集箱/
-            target-folder: sqlite3/shopee/采集箱/
-            
-      - name: 部署[sqlite3/shopee/聊聊/]目录
-        uses: JamesIves/github-pages-deploy-action@v4
-        with: 
-            branch: main
-            folder: sqlite3/shopee/聊聊/
-            target-folder: sqlite3/shopee/聊聊/
+            folder: sqlite3/shopee/商品/
+            target-folder: sqlite3/shopee/商品/
             
       - name: 部署[error/]目录
         uses: JamesIves/github-pages-deploy-action@v4
