@@ -49,7 +49,7 @@ jobs:
           mkdir -p ./error/         
           cd ./node/
           npm i  
-          node ./4hour.js          
+          node ./1day.js          
         env:
           NODE_SHOPEE_ACCESS_TOKEN: ${{ secrets.NODE_SHOPEE_ACCESS_TOKEN }}  
           NODE_SHOPEE_REFRESH_TOKEN: ${{ secrets.NODE_SHOPEE_REFRESH_TOKEN }}
