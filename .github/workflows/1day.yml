@@ -61,6 +61,13 @@ jobs:
             folder: sqlite3/shopee/商品/
             target-folder: sqlite3/shopee/商品/
             
+      - name: 部署[sqlite3/shopee/营销中心/]目录
+        uses: JamesIves/github-pages-deploy-action@v4
+        with: 
+            branch: main
+            folder: sqlite3/shopee/营销中心/
+            target-folder: sqlite3/shopee/营销中心/
+            
       - name: 部署[error/]目录
         uses: JamesIves/github-pages-deploy-action@v4
         with: 
